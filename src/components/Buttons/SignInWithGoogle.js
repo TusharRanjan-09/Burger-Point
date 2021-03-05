@@ -6,7 +6,7 @@ function Google(props) {
     
     return (
         <View style={{alignItems: 'center',marginVertical:10 }}>
-            <View style={{ borderWidth:1.5, borderRadius:30,width: '80%',marginBottom:10, borderColor:'#3827b2', alignContent:'space-between',backgroundColor:'white'}}>
+            <View style={{ borderRadius:30,width: '80%',marginBottom:10, borderColor:'#3827b2', alignContent:'space-between',backgroundColor:'white'}}>
             <TouchableOpacity style={{justifyContent: 'center', alignItems: 'center',height:50, }}>
                 <View style={{flexDirection:'row',justifyContent: 'space-between', alignContent: 'space-between', alignSelf: 'center'}}>
                 <Text style={{fontWeight: 'bold', fontSize:17, paddingHorizontal:10}}>SIGN IN WITH {props.name}</Text>

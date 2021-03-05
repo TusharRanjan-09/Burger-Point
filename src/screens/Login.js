@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions, TouchableOpacity, Image } from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo'
-import LinearGradient from 'react-native-linear-gradient';
 import Button from '../components/Buttons/Button';
 import Input from '../components/Input/TextInput';
 import SignIn from '../components/Buttons/SignInWithGoogle';
@@ -12,7 +11,6 @@ function Login({ navigation }) {
     const Height = Dimensions.get('screen').height
     return (
         <View style={{ flex: 1, }}>
-
             <Image source={{ uri: 'https://www.twopeasandtheirpod.com/wp-content/uploads/2020/06/Guacamole-Bacon-Burgers-6.jpg' }} style={{ resizeMode: 'cover', width: Width, height: Height }} />
             <View style={{ flexDirection: 'row', top: 730, justifyContent: 'center',position:'absolute',alignSelf:'center' }}>
                 <Text style={{ fontSize: 16 }}>Don't have an account?</Text>

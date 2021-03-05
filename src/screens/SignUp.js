@@ -2,10 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions, TouchableOpacity, Image } from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo'
-import LinearGradient from 'react-native-linear-gradient';
 import Button from '../components/Buttons/Button';
 import Input from '../components/Input/TextInput';
-import SignIn from '../components/Buttons/SignInWithGoogle';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
 function Login({ navigation }) {
     const Width = Dimensions.get('screen').width
